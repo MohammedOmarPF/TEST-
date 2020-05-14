@@ -1,0 +1,152 @@
+
+AVA Name:Star_HumanoidAvatar
+IS HUMAN: True
+IS Valid: True
+
+Human Descriptor
+Arm Stretch: 0.05
+Leg Stretch: 0.05
+Feet Spacing: 0
+Lower Arm Twist: 0.5
+LowerLeg Twist: 0.5
+Upper Arm Twist: 0.5
+Upper Leg Twist: 0.5
+Has Translatio nDoF: False
+
+-------Bones------
+Human: Hips, Bone: mixamorig:Hips
+Human: LeftUpperLeg, Bone: mixamorig:LeftUpLeg
+Human: RightUpperLeg, Bone: mixamorig:RightUpLeg
+Human: LeftLowerLeg, Bone: mixamorig:LeftLeg
+Human: RightLowerLeg, Bone: mixamorig:RightLeg
+Human: LeftFoot, Bone: mixamorig:LeftFoot
+Human: RightFoot, Bone: mixamorig:RightFoot
+Human: Spine, Bone: mixamorig:Spine
+Human: Chest, Bone: mixamorig:Spine1
+Human: Neck, Bone: mixamorig:Neck
+Human: Head, Bone: mixamorig:Head
+Human: LeftShoulder, Bone: mixamorig:LeftShoulder
+Human: RightShoulder, Bone: mixamorig:RightShoulder
+Human: LeftUpperArm, Bone: mixamorig:LeftArm
+Human: RightUpperArm, Bone: mixamorig:RightArm
+Human: LeftLowerArm, Bone: mixamorig:LeftForeArm
+Human: RightLowerArm, Bone: mixamorig:RightForeArm
+Human: LeftHand, Bone: mixamorig:LeftHand
+Human: RightHand, Bone: mixamorig:RightHand
+Human: LeftToes, Bone: mixamorig:LeftToeBase
+Human: RightToes, Bone: mixamorig:RightToeBase
+Human: Left Thumb Proximal, Bone: mixamorig:LeftHandThumb1
+Human: Left Thumb Intermediate, Bone: mixamorig:LeftHandThumb2
+Human: Left Thumb Distal, Bone: mixamorig:LeftHandThumb3
+Human: Left Index Proximal, Bone: mixamorig:LeftHandIndex1
+Human: Left Index Intermediate, Bone: mixamorig:LeftHandIndex2
+Human: Left Index Distal, Bone: mixamorig:LeftHandIndex3
+Human: Left Middle Proximal, Bone: mixamorig:LeftHandMiddle1
+Human: Left Middle Intermediate, Bone: mixamorig:LeftHandMiddle2
+Human: Left Middle Distal, Bone: mixamorig:LeftHandMiddle3
+Human: Left Ring Proximal, Bone: mixamorig:LeftHandRing1
+Human: Left Ring Intermediate, Bone: mixamorig:LeftHandRing2
+Human: Left Ring Distal, Bone: mixamorig:LeftHandRing3
+Human: Left Little Proximal, Bone: mixamorig:LeftHandPinky1
+Human: Left Little Intermediate, Bone: mixamorig:LeftHandPinky2
+Human: Left Little Distal, Bone: mixamorig:LeftHandPinky3
+Human: Right Thumb Proximal, Bone: mixamorig:RightHandThumb1
+Human: Right Thumb Intermediate, Bone: mixamorig:RightHandThumb2
+Human: Right Thumb Distal, Bone: mixamorig:RightHandThumb3
+Human: Right Index Proximal, Bone: mixamorig:RightHandIndex1
+Human: Right Index Intermediate, Bone: mixamorig:RightHandIndex2
+Human: Right Index Distal, Bone: mixamorig:RightHandIndex3
+Human: Right Middle Proximal, Bone: mixamorig:RightHandMiddle1
+Human: Right Middle Intermediate, Bone: mixamorig:RightHandMiddle2
+Human: Right Middle Distal, Bone: mixamorig:RightHandMiddle3
+Human: Right Ring Proximal, Bone: mixamorig:RightHandRing1
+Human: Right Ring Intermediate, Bone: mixamorig:RightHandRing2
+Human: Right Ring Distal, Bone: mixamorig:RightHandRing3
+Human: Right Little Proximal, Bone: mixamorig:RightHandPinky1
+Human: Right Little Intermediate, Bone: mixamorig:RightHandPinky2
+Human: Right Little Distal, Bone: mixamorig:RightHandPinky3
+Human: UpperChest, Bone: mixamorig:Spine2
+
+-------Skeleton------
+SkeletonName: Star_Humanoid(Clone), POS: (0.000, 0.000, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: Armature, POS: (0.000, 0.000, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Hips, POS: (0.000, 0.438, 0.003), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Spine, POS: (0.000, 0.039, -0.002), ROT: (-0.026, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Spine1, POS: (0.000, 0.046, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Spine2, POS: (0.000, 0.052, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Neck, POS: (0.000, 0.059, 0.000), ROT: (0.026, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:Head, POS: (0.000, 0.008, -0.001), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:HeadTop_End, POS: (0.000, 0.102, -0.016), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:HeadTop_End_end, POS: (0.000, 0.103, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftShoulder, POS: (-0.025, 0.047, 0.000), ROT: (0.570, -0.416, 0.578, 0.411), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftArm, POS: (0.000, 0.052, 0.000), ROT: (-0.196, 0.044, -0.004, 0.980), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftForeArm, POS: (0.000, 0.132, 0.000), ROT: (0.016, -0.001, -0.041, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHand, POS: (0.000, 0.103, 0.000), ROT: (-0.004, 0.066, 0.054, 0.996), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandThumb1, POS: (0.014, 0.016, 0.011), ROT: (0.160, -0.009, -0.295, 0.942), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandThumb2, POS: (0.004, 0.019, 0.000), ROT: (-0.014, -0.002, -0.075, 0.997), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandThumb3, POS: (-0.001, 0.017, 0.000), ROT: (-0.020, 0.005, -0.065, 0.998), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandThumb4, POS: (-0.003, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandThumb4_end, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandIndex1, POS: (0.017, 0.044, 0.001), ROT: (0.053, -0.004, -0.074, 0.996), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandIndex2, POS: (0.000, 0.018, 0.000), ROT: (-0.020, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandIndex3, POS: (0.000, 0.017, 0.000), ROT: (-0.041, 0.000, 0.000, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandIndex4, POS: (0.000, 0.015, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandIndex4_end, POS: (0.000, 0.015, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandMiddle1, POS: (0.005, 0.045, -0.003), ROT: (0.042, -0.001, -0.025, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandMiddle2, POS: (0.000, 0.019, 0.000), ROT: (-0.015, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandMiddle3, POS: (0.000, 0.019, 0.000), ROT: (-0.035, 0.000, 0.000, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandMiddle4, POS: (0.000, 0.016, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandMiddle4_end, POS: (0.000, 0.016, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandRing1, POS: (-0.007, 0.046, 0.000), ROT: (-0.003, 0.000, 0.019, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandRing2, POS: (0.000, 0.017, 0.000), ROT: (0.030, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandRing3, POS: (0.000, 0.017, 0.000), ROT: (0.033, 0.000, 0.000, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandRing4, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandRing4_end, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandPinky1, POS: (-0.016, 0.041, 0.000), ROT: (0.007, 0.006, 0.008, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandPinky2, POS: (0.000, 0.016, 0.000), ROT: (-0.028, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandPinky3, POS: (0.000, 0.013, 0.000), ROT: (0.001, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandPinky4, POS: (0.000, 0.012, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftHandPinky4_end, POS: (0.000, 0.012, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightShoulder, POS: (0.025, 0.047, -0.001), ROT: (-0.566, -0.417, 0.581, -0.410), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightArm, POS: (0.000, 0.052, 0.000), ROT: (0.197, 0.017, -0.008, -0.980), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightForeArm, POS: (0.000, 0.132, 0.000), ROT: (0.014, 0.001, 0.039, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHand, POS: (0.000, 0.103, 0.000), ROT: (0.001, -0.089, -0.055, 0.994), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandThumb1, POS: (-0.014, 0.016, 0.011), ROT: (0.158, 0.008, 0.298, 0.941), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandThumb2, POS: (-0.004, 0.019, 0.000), ROT: (-0.013, 0.002, 0.059, 0.998), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandThumb3, POS: (0.000, 0.018, 0.000), ROT: (-0.024, -0.010, 0.094, 0.995), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandThumb4, POS: (0.003, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandThumb4_end, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandIndex1, POS: (-0.017, 0.046, 0.001), ROT: (0.036, 0.003, 0.077, 0.996), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandIndex2, POS: (0.000, 0.018, 0.000), ROT: (-0.002, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandIndex3, POS: (0.000, 0.016, 0.000), ROT: (-0.024, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandIndex4, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandIndex4_end, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandMiddle1, POS: (-0.006, 0.044, -0.003), ROT: (0.032, 0.000, 0.012, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandMiddle2, POS: (0.000, 0.019, 0.000), ROT: (-0.011, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandMiddle3, POS: (0.000, 0.018, 0.000), ROT: (-0.027, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandMiddle4, POS: (0.000, 0.016, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandMiddle4_end, POS: (0.000, 0.016, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandRing1, POS: (0.007, 0.048, -0.001), ROT: (-0.011, 0.000, -0.016, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandRing2, POS: (0.000, 0.017, 0.000), ROT: (0.027, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandRing3, POS: (0.000, 0.015, 0.000), ROT: (-0.023, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandRing4, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandRing4_end, POS: (0.000, 0.014, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandPinky1, POS: (0.017, 0.042, 0.001), ROT: (0.000, 0.002, 0.009, -1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandPinky2, POS: (0.000, 0.016, 0.000), ROT: (-0.005, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandPinky3, POS: (0.000, 0.013, 0.000), ROT: (0.003, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandPinky4, POS: (0.000, 0.011, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightHandPinky4_end, POS: (0.000, 0.011, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftUpLeg, POS: (-0.036, -0.022, -0.001), ROT: (-0.001, -0.005, 1.000, 0.003), Scale: (1.000, 0.999, 0.999)
+SkeletonName: mixamorig:LeftLeg, POS: (0.000, 0.188, 0.000), ROT: (-0.043, 0.000, -0.006, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftFoot, POS: (0.000, 0.183, 0.000), ROT: (0.563, -0.007, 0.005, 0.826), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftToeBase, POS: (0.000, 0.076, 0.000), ROT: (0.238, 0.025, -0.006, 0.971), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftToe_End, POS: (0.000, 0.031, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:LeftToe_End_end, POS: (0.000, 0.031, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightUpLeg, POS: (0.036, -0.022, 0.000), ROT: (0.000, -0.009, 1.000, -0.003), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightLeg, POS: (0.000, 0.188, 0.000), ROT: (-0.035, 0.000, 0.006, 0.999), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightFoot, POS: (0.000, 0.183, 0.000), ROT: (0.554, 0.007, -0.005, 0.832), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightToeBase, POS: (0.000, 0.074, 0.000), ROT: (0.245, -0.025, 0.006, 0.969), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightToe_End, POS: (0.000, 0.030, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: mixamorig:RightToe_End_end, POS: (0.000, 0.030, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+SkeletonName: sp_starP1, POS: (0.000, 0.000, 0.000), ROT: (0.000, 0.000, 0.000, 1.000), Scale: (1.000, 1.000, 1.000)
+
