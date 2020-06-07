@@ -190,7 +190,27 @@ namespace Slate
         public float GetTrackWeight(float time, float blendIn, float blendOut) { return this.GetWeight(time, blendIn, blendOut); }
         ///----------------------------------------------------------------------------------------------
 
+#if !UNITY_EDITOR
+        ///Add an ActionClip to this Track
+        public T AddAction<T>(float time) where T : ActionClip { return (T)AddAction(typeof(T), time); }
+        public ActionClip AddAction(System.Type type, float time) {
 
+            var catAtt = type.GetCustomAttributes(typeof(CategoryAttribute), true).FirstOrDefault() as CategoryAttribute;
+            if ( catAtt != null && clips.Count == 0 ) { name = catAtt.category + " Track"; }
+
+            var newAction = gameObject.AddComponent(type) as ActionClip;
+            newAction.startTime = time;
+            clips.Add(newAction);
+            newAction.PostCreate(this);
+
+            var nextAction = clips.FirstOrDefault(a => a.startTime > newAction.startTime);
+            if ( nextAction != null ) { newAction.endTime = Mathf.Min(newAction.endTime, nextAction.startTime); }
+
+            root.Validate();
+
+            return newAction;
+        }
+#endif
 
 
         ///----------------------------------------------------------------------------------------------
